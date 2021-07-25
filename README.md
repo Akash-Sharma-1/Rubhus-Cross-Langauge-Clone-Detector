@@ -45,6 +45,10 @@ C-Java Dataset - Link
       
 ### Results 
 
+## About the original setup
+- In our experiments we have trained Rubhus and Baseline Models for x and y epochs for Java Python Dataset and x2 and y2 epochs for C-Java Dataset. 
+- The hyperparameters used in the original experiments as well as in this source code are reported in the paper.
+- We have used GTx 2080Ti GPU to run our experiments. The time analysis of the tool also has been reported in the paper.
 
 ## Citing the project
 
