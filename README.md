@@ -23,7 +23,7 @@ After setting up the repository, it would contain dataset files as well.
 
        pip install -r requirements.txt
 
-Note - Pytorch and Pytorch-Geometric (+ associated dependencies) versions must be installed in accordance the compatablity of Cuda version and operation system 
+Note - Pytorch and Pytorch-Geometric (+ associated dependencies) versions must be installed in accordance the compatablity of Cuda version and operating system 
 
 ### Datasets
 #### Extraction of Dataset Files
