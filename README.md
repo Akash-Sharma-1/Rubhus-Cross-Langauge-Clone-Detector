@@ -1,3 +1,4 @@
+
 # Rubhus-Cross-Langauge-Clone-Detector
 
 This repository contains the source code for the paper - "Improving Cross-Language Code CloneDetection via Code Representation Learning and Graph Neural Networks"
@@ -25,7 +26,9 @@ After setting up the repository, it would contain dataset files as well.
 
 Note - Pytorch and Pytorch-Geometric (+ associated dependencies) versions must be installed in accordance the compatablity of Cuda version and operating system 
 
-### Datasets
+### Setting up Datasets
+The datasets which were used for experiments couldn't be uploaded to the repository due to file size limits. These files are to be downloaded and can be used independently for testing/running the models.
+
 #### Extraction of Dataset Files
 - Java-Python Dataset - [Link](https://drive.google.com/file/d/1pOkkNpc9lmMXME8mCUYJRjl_-5GJzB6f/view?usp=sharing)  
 - C-Java Dataset - [Link](https://drive.google.com/file/d/1pOkkNpc9lmMXME8mCUYJRjl_-5GJzB6f/view?usp=sharing)
@@ -34,12 +37,26 @@ Note - Pytorch and Pytorch-Geometric (+ associated dependencies) versions must b
 - Unzip the downloaded files and extract the datasets files.
 - Place these extracted files in the root directory of this repository
 
-### Configuration of file paths
+#### Configuration of file paths
 - .
 
 ## Usage 💫
 
 ### Configuration of Hyperparameters
+
+- Hyperparameters are defined inside the trainer files and can modified as per convenience. 
+
+The hyperparameter variables explanation table is as follows : 
+ 
+|  Var Name |  Hyperparameter | Default Value  |
+|--|--|--|
+| dim  |  |  |
+| epochs |  |  |
+| batch_size |  |  |
+| lamda |  |  |
+| separate_encoder |  |  |
+| optimizer |  |  |
+| scheduler |  |  |
 
 ### Training RUBHUS Model
        python3 trainerRubhus.py
