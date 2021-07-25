@@ -3,7 +3,6 @@
 
 This repository contains the source code for the paper - "Improving Cross-Language Code CloneDetection via Code Representation Learning and Graph Neural Networks"
 
-
 ## Code Organisation 📜
 Current organisation contains files pertaining to models (`rubhusModel.py, baselineModel.py`), trainers (`trainerBaseline.py , trainerRubhus.py`) and some helper function file.  
 
@@ -83,3 +82,5 @@ If you are using this for academic work, we would be thankful if you could cite 
  ....
 }
 ```
+
+## Contact 
