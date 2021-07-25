@@ -39,6 +39,8 @@ Note - Pytorch and Pytorch-Geometric (+ associated dependencies) versions must b
 
 ## Usage 💫
 
+### Configuration of Hyperparameters
+
 ### Training RUBHUS Model
        python3 trainerRubhus.py
 
