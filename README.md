@@ -3,7 +3,7 @@
 This repository contains the source code for the paper - "Improving Cross-Language Code CloneDetection via Code Representation Learning and Graph Neural Networks"
 
 
-## Code Organisation
+## Code Organisation 📜
 Current organisation contains files pertaining to models (`rubhusModel.py, baselineModel.py`), trainers (`trainerBaseline.py , trainerRubhus.py`) and some helper functions file.  
 
     Repository
@@ -13,7 +13,7 @@ Current organisation contains files pertaining to models (`rubhusModel.py, basel
    
 After setting up the repository, it would contain dataset files as well.
 
-## Setting Up
+## Setting Up ⚙
 
 ### Clone the repo
 
@@ -37,7 +37,7 @@ Note - Pytorch and Pytorch-Geometric (+ associated dependencies) versions must b
 ### Configuration of file paths
 - .
 
-## Usage
+## Usage 💫
 
 ### Training RUBHUS Model
        python3 trainerRubhus.py
@@ -52,7 +52,7 @@ Note - Pytorch and Pytorch-Geometric (+ associated dependencies) versions must b
 - The hyperparameters used in the original experiments as well as in this source code are reported in the paper.
 - We have used GTx 2080Ti GPU to run our experiments. The time analysis of the tool also has been reported in the paper.
 
-## Citing the project
+## Citing the project 📑
 
 If you are using this for academic work, we would be thankful if you could cite the following paper.
 `BIBTEX`
