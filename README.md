@@ -25,15 +25,15 @@ Note - Pytorch and Pytorch-Geometric (+ associated dependencies) versions must b
 
 ### Datasets
 #### Extraction of Dataset Files
-Java-Python Dataset - Link  
-C-Java Dataset - Link
+- Java-Python Dataset - [Link](https://drive.google.com/file/d/1pOkkNpc9lmMXME8mCUYJRjl_-5GJzB6f/view?usp=sharing)  
+- C-Java Dataset - [Link](https://drive.google.com/file/d/1pOkkNpc9lmMXME8mCUYJRjl_-5GJzB6f/view?usp=sharing)
+
 #### Setting up Dataset Files
 - Unzip the downloaded files and extract the datasets files.
-- Place these files in the root directory of this repository
-
+- Place these extracted files in the root directory of this repository
 
 ### Configuration of file paths
-
+- .
 
 ## Usage
 
