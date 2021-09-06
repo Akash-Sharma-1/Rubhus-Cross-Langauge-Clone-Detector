@@ -1,5 +1,5 @@
 
-# Rubhus-Cross-Langauge-Clone-Detector
+# Rubhus-Cross-Langauge-Code-Clone-Detector
 
 This repository contains the source code for the paper - "Improving Cross-Language Code CloneDetection via Code Representation Learning and Graph Neural Networks"
 
@@ -37,7 +37,10 @@ The datasets which were used for experiments couldn't be uploaded to the reposit
 - Place these extracted files in the root directory of this repository
 
 #### 3.3 Configuration of file paths
-- .
+- **Dataset paths** - After extraction of the dataset, clone pair files and non-clone pair text files must be stored in the root directory in a folder named 'CloneDetectionSrc'. 
+- **Processed Data folder** - A folder named 'cloneDetectionData' must be created  in the root directory where all the processed data files will be stored for training the model
+- **Trained Models folder** - A folder named 'cloneDetectionModels' must be created  in the root directory where all the formed model files will be stored.
+
 
 ## 💫 Usage 
 
@@ -49,26 +52,24 @@ The hyperparameter variables explanation table is as follows :
  
 |  Var Name |  Hyperparameter | Default Value  |
 |--|--|--|
-| dim  |  |  |
-| epochs |  |  |
-| batch_size |  |  |
-| lamda |  |  |
-| separate_encoder |  |  |
-| optimizer |  |  |
-| scheduler |  |  |
+| dim  | Embedding size (dimension) for the model | 64 |
+| epochs | #Epochs for the training  | 25 |
+| batch_size | Size of the data batch | 32 |
+| lamda | Regulariser  | 0.001 |
+| use_unsup_loss | Usage of unsupervised loss in model training  | True |
+| lr | Learning Rate (initial)  | 0.001 |
+| optimizer | Optimizer of loss  | Adam |
+| scheduler | Learning Rate Scheduler | ReduceLROnPlateau |
 
 ### 2. Training RUBHUS Model
        python3 trainerRubhus.py
 
 ### 3. Training Baseline Model
        python3 trainerBaseline.py
-      
-### 4. Results 
-- .
 
 
 ## ⭐ About the original setup 
-- In our experiments we have trained Rubhus and Baseline Models for x and y epochs for Java Python Dataset and x2 and y2 epochs for C-Java Dataset. 
+- In our experiments we have trained Rubhus and Baseline Models for Java Python Dataset and for C-Java Dataset separately. 
 - The hyperparameters used in the original experiments as well as in this source code are reported in the paper.
 - We have used GTx 2080Ti GPU to run our experiments. The time analysis of the tool also has been reported in the paper.
 
@@ -79,10 +80,12 @@ If you are using this for academic work, we would be thankful if you could cite 
 
 ```
 @{,
- author = {},
+ author = {Nikita Mehrotra*, Akash Sharma*, Rahul Purandare},
  title = {Improving Cross-Language Code CloneDetection via Code Representation Learning and Graph Neural Networks},
  ....
 }
 ```
 
 ## ✍ Contact 
+
+Please find the authors and their contact details in [AUTHORS.md](https://github.com/pag-iiitd/RUBHUS-Cross-Langauge-Code-Clone-Detector/blob/main/AUTHORS.md)
